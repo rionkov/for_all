@@ -1,0 +1,11 @@
+{
+"device_name":"Power metter",
+"menu_button_status":"State",
+"menu_button_status_title":"Current device data",
+"menu_button_dashboard":"Dashboard",
+"menu_button_dashboard_title":"Display board",
+"menu_button_setup":"Setup",
+
+
+"END":""
+}

@@ -1,0 +1,36 @@
+{
+"wifi_ssid_text":"Мрежа :",
+"wifi_ssid_title":"Име на точката за достъп\n(SSID на вашият рутер)\nМаксимум 16 символа!",
+"wifi_ssid_placeholder":"Мрежа",
+
+"wifi_pass_text":"Парола :",
+"wifi_pass_title":"Парола за връзка с рутера\n(паролата за вашият рутер)\nМаксимум 16 символа!",
+"wifi_pass_placeholder":"Парола",
+
+"wifi_dhcp_text":" DHCP",
+"wifi_dhcp_title":"Използване на DHCP\nза мрежовите настройки",
+
+"wifi_ip_text":"ИП адрес :",
+"wifi_ip_title":"Статичен - ИП адрес\nза устройството\n(XXX.XXX.XXX.XXX)",
+"wifi_ip_placeholder":"XXX.XXX.XXX.XXX",
+
+"wifi_masc_text":"Маска :",
+"wifi_masc_title":"Статична - маска\nза устройството\n(XXX.XXX.XXX.XXX)",
+"wifi_masc_placeholder":"255.255.255.0",
+
+"wifi_gateway_text":"Шлюз :",
+"wifi_gateway_title":"Статичен - шлюз\nза устройството\n(XXX.XXX.XXX.XXX)",
+"wifi_gateway_placeholder":"XXX.XXX.XXX.XXX",
+
+"wifi_dns1_text":"DNS 1 :",
+"wifi_dns1_title":"Статичен - DNS1\nза устройството\n(XXX.XXX.XXX.XXX)",
+"wifi_dns1_placeholder":"XXX.XXX.XXX.XXX",
+"wifi_dns2_text":"DNS 2 :",
+"wifi_dns2_title":"Статичен - DNS2\nза устройството\n(XXX.XXX.XXX.XXX)",
+"wifi_dns2_placeholder":"XXX.XXX.XXX.XXX",
+
+"username":"Потребителско име:",
+"password":"Парола:",
+
+"END":""
+}

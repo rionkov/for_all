@@ -1,0 +1,36 @@
+{
+"wifi_ssid_text":"SSID :",
+"wifi_ssid_title":"Your SSDI name\n(your router SSID)\nMax 16 characters!",
+"wifi_ssid_placeholder":"SSID",
+
+"wifi_pass_text":"Password :",
+"wifi_pass_title":"Your SSDI password\n(your router password)\nMax 16 characters!",
+"wifi_pass_placeholder":"Password",
+
+"wifi_dhcp_text":" DHCP",
+"wifi_dhcp_title":"Use DHCP\nfor network setup",
+
+"wifi_ip_text":"IP address :",
+"wifi_ip_title":"Static - IP address\n\tfor device\n(XXX.XXX.XXX.XXX)",
+"wifi_ip_placeholder":"XXX.XXX.XXX.XXX",
+
+"wifi_masc_text":"Мasc :",
+"wifi_masc_title":"\t Static - masc\n\tfor device\n(XXX.XXX.XXX.XXX)",
+"wifi_masc_placeholder":"255.255.255.0",
+
+"wifi_gateway_text":"Gateway :",
+"wifi_gateway_title":"Static - gateway\n\tfor device\n(XXX.XXX.XXX.XXX)",
+"wifi_gateway_placeholder":"XXX.XXX.XXX.XXX",
+
+"wifi_dns1_text":"DNS 1 :",
+"wifi_dns1_title":"Static - DNS1\n\tзfor device\n(XXX.XXX.XXX.XXX)",
+"wifi_dns1_placeholder":"XXX.XXX.XXX.XXX",
+"wifi_dns2_text":"DNS 2 :",
+"wifi_dns2_title":"Static - DNS2\n\tfor device\n(XXX.XXX.XXX.XXX)",
+"wifi_dns2_placeholder":"XXX.XXX.XXX.XXX",
+
+"username":"Username:",
+"password":"Password:",
+
+"END":""
+}
