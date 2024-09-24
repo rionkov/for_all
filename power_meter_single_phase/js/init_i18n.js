@@ -1,12 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-// Възстановяване на последно избран език
     const savedLanguage = localStorage.getItem('selectedLanguage') || 'bg';
     const languageSwitcher = document.getElementById('languageSwitcher');
     languageSwitcher.value = savedLanguage;
-//===
-//$.ajaxSetup({async: false});
-// Инициализация на i18next с последно избрания език
-
 i18next
     .use(i18nextXHRBackend)
     .init({
@@ -24,10 +19,6 @@ loadPath: 'https://cdn.jsdelivr.net/gh/rionkov/for_all/power_meter_single_phase/
             updateContent()
         });
 });
-
-//$.ajaxSetup({async: true});
-//===
-    // Запазване на избора на език и превеждане на страницата
     document.getElementById('languageSwitcher').addEventListener('change', function() {
         const selectedLanguage = this.value;
         localStorage.setItem('selectedLanguage', selectedLanguage);
