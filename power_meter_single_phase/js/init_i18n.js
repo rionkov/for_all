@@ -8,7 +8,6 @@ i18next
         lng: savedLanguage,
         backend: {
 loadPath: 'https://cdn.jsdelivr.net/gh/rionkov/for_all/power_meter_single_phase/i18n/{{lng}}_{{ns}}.json'
-		loadPath: '{{lng}}_{{ns}}.json'
         },
         fallbackLng: 'en',
         //debug: true,
