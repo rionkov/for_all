@@ -6,6 +6,8 @@
 "menu_button_dashboard_title":"Табло с показанията",
 "menu_button_setup":"Настройки",
 
+"buzer_on":"Звуковият сигнал е\nВключен",
+"buzer_off":"Звуковият сигнал е\nИзключен",
 "date":"Дата: ",
 "END":""
 }

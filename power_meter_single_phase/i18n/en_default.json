@@ -6,6 +6,8 @@
 "menu_button_dashboard_title":"Display board",
 "menu_button_setup":"Setup",
 
+"buzer_on":"Sound signal is\nOn",
+"buzer_off":"Sound signal is\nOff",
 "date":"Date: ",
 "END":""
 }
