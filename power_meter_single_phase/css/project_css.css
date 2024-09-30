@@ -1,3 +1,22 @@
 .bold {font-weight: bold;}
 .underline {text-decoration: underline;}
 .italic {font-style: italic;}
+
+.password-box {
+  position: relative;
+  display: inline-block;
+}
+/*
+.w3-input {
+  //padding-right: 30px;
+  //width: 30%
+}
+
+.password-icon {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  padding: 12px 12px;
+ // pointer-events: none;
+}
+*/
