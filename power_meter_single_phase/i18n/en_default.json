@@ -8,6 +8,11 @@
 
 "buzer_on":"Sound signal is\nOn",
 "buzer_off":"Sound signal is\nOff",
+"on":" On",
+"off":" Off",
+"volume":"Volume: ",
 "date":"Date: ",
+
+"current_firmware":"Current firmware: ",
 "END":""
 }
