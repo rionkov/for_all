@@ -12,7 +12,8 @@ $('<link/>', {
 $('<link/>', {
    rel: 'stylesheet',
    //type: 'text/css',
-   href: 'https://www.w3schools.com/lib/w3-theme-teal.css'
+   //href: 'https://www.w3schools.com/lib/w3-theme-teal.css'
+   href: 'https://cdn.jsdelivr.net/gh/rionkov/for_all/power_meter_single_phase/css/w3-theme-teal.min.css'
 }).appendTo('head')
 $('<link/>', {
    rel: 'stylesheet',
