@@ -32,41 +32,23 @@ scriptTag.parentNode.appendChild(div);
 
 var buzer_tValueOld;
 function parse_device_state(msg){
-
 if (typeof msg.buzer !== 'undefined') {
-if(msg.buzer=='1'){
- $('#buzer').attr('data-i18n','on');
-}
-if(msg.buzer=='0'){
- $('#buzer').attr('data-i18n','on');
-}
+if(msg.buzer=='1'){$('#buzer').attr('data-i18n','on');}
+if(msg.buzer=='0'){$('#buzer').attr('data-i18n','on');}
 updateContent()
-//console.log("Update")
 }
-
 if (typeof msg.buzer_t !== 'undefined') {
 //$('#buzer').attr('data-i18n-title','volume');
         var buzer_tValue = msg.buzer_t;
         // Вземаме текущото съдържание на атрибута title
-        //var currentTitle = $('#buzer').attr('title') + buzer_tValue;// + '^';
-		var currentTitle = $('#buzer').attr('title');// + '^';
-//console.log(currentTitle)
+		var currentTitle = $('#buzer').attr('title');
         // Изчистваме старата стойност, ако вече е добавяна
         var cleanTitle = currentTitle.split(buzer_tValueOld)[0]; // Запазваме само преведената част
-//console.log(cleanTitle)
         // Добавяме новата стойност към чистия преведен текст
 $('#buzer').attr('title', cleanTitle + buzer_tValue + ' %');
-//console.log(buzer_tValueOld)
 buzer_tValueOld = buzer_tValue;
-//console.log(buzer_tValueOld)
 }
-
-if(typeof msg.buzer_i!=='undefined'){
-$('#buzer').removeClass().addClass('fa fa-volume-' + msg.buzer_i);
-$('#buzer').attr('data-i18n','on');
-}
-
-
+if(typeof msg.buzer_i!=='undefined'){$('#buzer').removeClass().addClass('fa fa-volume-' + msg.buzer_i);}
 
 if(typeof msg.rssi!=='undefined'){$('#rssi').text(' '+msg.rssi+' %');}
 if(typeof msg.rssi_t!=='undefined'){$('#rssi').attr('title',msg.rssi_t+' dBm.');}
