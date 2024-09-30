@@ -65,4 +65,7 @@ function openMenu(evt, menuName) {
   }
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.className += " w3-red";
+
+var x = document.getElementById(wifi_pass_id);
+x.type = "password";
 }
