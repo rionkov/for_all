@@ -34,8 +34,8 @@ var buzer_tValueOld;
 function parse_device_state(msg){
 if (typeof msg.buzer !== 'undefined') {
 if(msg.buzer=='1'){$('#buzer').attr('data-i18n','on');}
-if(msg.buzer=='0'){$('#buzer').attr('data-i18n','on');}
-updateContent()
+if(msg.buzer=='0'){$('#buzer').attr('data-i18n','off');}
+updateContent();
 }
 if (typeof msg.buzer_t !== 'undefined') {
 //$('#buzer').attr('data-i18n-title','volume');
